@@ -70,12 +70,12 @@ nav{
  margin: 0 5px; 
 }
 
-/* Main */
+/* MAIN */
 
 .row{
     display: flex;
     flex-wrap: wrap;
-    row-gap: 100px;
+    row-gap: 50px;
     justify-content: space-between;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -83,9 +83,10 @@ nav{
 
 .column1,.column2,.column3,.column4,.column5,.column6{
     width: 32%;
+    position: relative;
 }
 
-/* COLUMN list IMG VIEW-HIDDEN*/
+/* Column list IMG VIEW-HIDDEN*/
 
 .img-view{
 display: block;
@@ -137,4 +138,32 @@ display: block;
 
 .column6:hover>.img-hidden{
     display: block;
+}
+
+/* Product text */
+
+.product-info{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+
+.product-info>.brand{
+    font-size: 12px;
+}
+
+.product-info>.model{
+    font-size: 15px;
+}
+
+.product-info>.price{
+    color: red;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.product-info>.discount{
+    text-decoration: line-through;
+    display: inline-block;
+    font-size: 13px;
 }
