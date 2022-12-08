@@ -17,6 +17,10 @@ a{
     color: inherit;
 }
 
+img{
+    width: 100%;
+}
+
 .logo-boolean{
     width: 150px;
 }
@@ -67,3 +71,70 @@ nav{
 }
 
 /* Main */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 100px;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.column1,.column2,.column3,.column4,.column5,.column6{
+    width: 32%;
+}
+
+/* COLUMN list IMG VIEW-HIDDEN*/
+
+.img-view{
+display: block;
+}
+
+.img-hidden{
+    display: none;
+} 
+
+.column1:hover>.img-view{
+    display: none;
+}
+
+.column1:hover>.img-hidden{
+    display: block;
+}
+
+.column2:hover>.img-view{
+    display: none;
+}
+
+.column2:hover>.img-hidden{
+    display: block;
+
+}.column3:hover>.img-view{
+    display: none;
+}
+
+.column3:hover>.img-hidden{
+    display: block;
+
+}.column4:hover>.img-view{
+    display: none;
+}
+
+.column4:hover>.img-hidden{
+    display: block;
+
+}.column5:hover>.img-view{
+    display: none;
+}
+
+.column5:hover>.img-hidden{
+    display: block;
+
+}.column6:hover>.img-view{
+    display: none;
+}
+
+.column6:hover>.img-hidden{
+    display: block;
+}
