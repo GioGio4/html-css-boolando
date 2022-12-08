@@ -10,5 +10,60 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
-
 }
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo-boolean{
+    width: 150px;
+}
+
+/* Header */
+
+header{
+    min-height: 60px;
+    background-color: #ff6900;
+    color: white;
+    padding: 10px 0;
+}
+
+nav{
+    display: flex;
+    max-height: 60px;
+    align-items:center;
+}
+
+.nav-link{
+    width: 15%;
+    text-align: left;
+}
+
+.nav-logo{
+ flex-grow: 1;
+ text-align: center;
+ 
+}
+
+.nav-icon{
+    width: 15%;
+    text-align: right;
+}
+
+.nav-icon>a{
+    margin: 0 5px;
+   
+}
+
+.nav-link>ol{
+    display: flex;
+    list-style: none;   
+}
+
+.nav-link>ol>li{
+ margin: 0 5px; 
+}
+
+/* Main */
