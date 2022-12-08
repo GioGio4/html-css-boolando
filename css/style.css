@@ -25,7 +25,7 @@ img{
     width: 150px;
 }
 
-/* Header */
+/* HEADER */
 
 header{
     min-height: 60px;
@@ -34,7 +34,7 @@ header{
     padding: 10px 0;
 }
 
-nav{
+.header-nav{
     display: flex;
     max-height: 60px;
     align-items:center;
@@ -167,3 +167,36 @@ display: block;
     display: inline-block;
     font-size: 13px;
 }
+
+/* FOOTER */
+
+footer{
+    min-height: 100px;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-info>ol,.footer-social>ol{
+    display: flex;
+    list-style: none;   
+}
+
+.footer-info>*,.footer-social>*{
+    line-height: 30px;
+}
+
+.footer-info>ol>li{
+    margin-right: 10px;
+   }
+
+  .fa-brands{
+    font-size: 20px;
+    margin-left: 5px;
+  }
